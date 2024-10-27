@@ -28,7 +28,7 @@ export default function Stats({ todos }) {
     >
       <p>
         {numItems === 0
-          ? "No items added yet."
+          ? "No items added yet"
           : percentage === 100
           ? "All items are packed! 🎉 You're all set!"
           : `You have ${numItems} items on your list, and you already packed ${numPacked} (${
